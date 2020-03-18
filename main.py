@@ -92,9 +92,18 @@ with open(budget_csv, newline='') as csvfile:
     
     net = sum(financial_data)
     
+    print(f"Financial Analysis")
+    print("="*60)
+    print(f"Total Months: {total_months}")
+    print(f"Total: ${net}")
+    print(f"Average Change: {sum(netchange_list)/len(netchange_list)}")
+    print(f"Greatest Increase in Profits: {greatest_increase[0]} '({greatest_increase[1]})'")
+    print(f"Greatest Decrease in Profits: {greatest_decrease[0]} '({greatest_decrease[1]})'")
+    print("="*60)
+
 output = (
     f"\nFinancial Analysis\n"
-    f"----------------------------\n"
+    f"==============================================================================\n"
     f"Total Months: {total_months}\n"
     f"Total: ${net}\n"
     f"Average Change: {sum(netchange_list)/len(netchange_list)}\n"
@@ -121,35 +130,4 @@ with open(budget_csv, newline='') as csvfile:
     
     first_row = next(csvreader)
     
-    print(first_row[1])
-
-
-# In[ ]:
-
-
-# test cells below.
-
-
-# In[ ]:
-
-
-(first_row[1])
-
-
-# In[ ]:
-
-
-csvheader
-
-
-# In[ ]:
-
-
-type(greatest_increase[1])
-
-
-# In[ ]:
-
-
-
-
+    #print(first_row[1])
