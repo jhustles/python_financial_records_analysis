@@ -114,20 +114,3 @@ output = (
 with open ("financial_analysis.txt", 'w') as txt_file:
     txt_file.write(output)
 
-
-# In[ ]:
-
-
-# Test Cells
-
-with open(budget_csv, newline='') as csvfile:
-    csvreader = csv.reader(csvfile, delimiter=',')
-    csvheader = next(csvreader) 
-    
-    total_months = 0
-    financial_data = []
-    rolling_average = []
-    
-    first_row = next(csvreader)
-    
-    #print(first_row[1])
