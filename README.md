@@ -17,7 +17,7 @@ To replicate the examples in my repositories, you will need:
 
 ## Output:
 
-![Terminal Output](images/financial_analysis_output.JPG)
+![Terminal Output](images/terminal_output.JPG)
 ![Financial Analysis Txt File](images/financial_analysis_output.JPG)
 
 ## Authors
