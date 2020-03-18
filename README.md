@@ -20,9 +20,9 @@ To replicate the examples in my repositories, you will need:
 ![Terminal Output](images/terminal_output.JPG)
 ![Financial Analysis Txt File](images/financial_analysis_output.JPG)
 
-## Authors
+## Author
 
-* **Johneson Giang** - *Initial work* - [Github](https://github.com/jhustles)
+* **Johneson Giang** - *Individual Project* - [Github](https://github.com/jhustles)
 
 ## License
 
