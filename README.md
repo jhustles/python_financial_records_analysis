@@ -7,7 +7,7 @@ Created a Python script for analyzing the financial records, and producing a sum
 ### Prerequisites
 To replicate the examples in my repositories, you will need:
 - Python3.7
-- Jupyter Notebook (From Ananaconda)
+- Jupyter Notebook (From Anaconda Individual Edition)
 - Import OS and CSV
 
 ## Getting Started:
